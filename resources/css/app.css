@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* Custom box with rounded corners */
+.custom-box {
+    background-color: #1f4e9f; /* A dark background color */
+    border-radius: 1rem; /* Rounded corners */
+    padding: 4rem; /* Padding inside the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transitions */
+    width:100%;
+    
+}
+
+/* Custom gradient for heading */
+.custom-gradient {
+    background: linear-gradient(45deg, #6b46c1, #f6ad55);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+/* Text shadow for headings */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Black shadow */
+}
