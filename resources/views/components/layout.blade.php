@@ -6,11 +6,11 @@
     <title>{{ $title ?? 'My Portfolio' }}</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 ">
     <div class="min-h-screen flex flex-col">
         <x-layout.header />
 
-        <main class="flex-grow container mx-auto p-6">
+        <main class="flex-grow container mx-auto p-0">
             {{ $slot }}
         </main>
 
