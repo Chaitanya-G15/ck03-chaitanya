@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
- /* Custom box with rounded corners */
-.custom-box {
-    background-color: #1f4e9f; /* A dark background color */
-    border-radius: 1rem; /* Rounded corners */
-    padding: 4rem; /* Padding inside the box */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: all 0.3s ease; /* Smooth transitions */
-    width:100%;
-    
+.custom-gradient {
+    background: linear-gradient(90deg, rgba(26,115,232,1) 0%, rgba(255,99,71,1) 100%);
 }
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
 
 /* Custom gradient for heading */
 .custom-gradient {
